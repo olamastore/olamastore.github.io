@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Gifts and more..."><meta property="og:description" content="Gifts and more...">
+    <meta property='og:title' content="Olama's Store">
+    <meta property='og:locale' content='ar_EG'>
+    <meta property='og:image' content="http://olamastore.rf.gd/images/bcard.png">
+    <meta name="twitter:image" content="http://olamastore.rf.gd/images/bcard.png">
+
+    <!-- #44e4f2 -->
+    <!-- #0273ad -->
+    <link rel="stylesheet" href="fontawesome5.css"/> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Business Card</title>
+  </head>
+  <body>
+   <div class="card-wrapper">
+    <div class="card">
+        <div class="card-front">
+            <div class="left">
+                <img src="images/logo.png"/>
+                <h4><span>Olama's</span> Store</h4>
+            </div>
+            <div class="right">
+                <div class="person right-content">
+                    <i class="fa fa-user-tie"></i>
+                    <div class="text-person">
+                    <h4>Olama's Store</h4>
+                    <p>Owner</p>
+                    </div>
+                </div>
+                
+                <!-- . -->
+                <div class="phone right-content">
+                   <i class="fa fa-phone"></i>
+                    <div>
+                   <a href="tel:+201099021424">+201099021424</a>
+                    </div>
+                </div>
+                <div class="email right-content">
+                   <i class="fab fa-whatsapp"></i>
+                    <div>
+                   <!-- <a href="https://wa.me/+201099021424">+201099021424</a> -->
+                   <a href="https://api.whatsapp.com/send/?phone=00201099021424">+201099021424</a>
+                    </div>
+                   </div>
+                   <div class="address right-content">
+                   <i class="fa fa-map-marker-alt"></i>
+                    <div class="text-address">
+                   <a href="https://maps.app.goo.gl/jPz268JTsLR7fCy89">12 ب Zahraa Al Maadi, Maadi as Sarayat Al Gharbeyah, Maadi, Cairo Governorate 4064103</a>
+                    </div>
+               </div>
+               <!-- <button class="card-btn"><i class="fa fa-exchange-alt"></i></button> -->
+   </div>
+   </div>
+   
+    <div class="card-back" >
+        <img src="images/logoback.png" />
+    </div>
+    
+   </div>
+   </div>
+  </body>
+</html>
+
+
+<!-- Works with line 37 in CSS without needing of the card button in card -->
+
+<script>
+// Select the card wrapper element
+let cardWrapper = document.querySelector(".card-wrapper");
+
+// Add a click event listener to the card wrapper element
+cardWrapper.addEventListener("click", function() {
+  // Toggle the card-rotate class on the card wrapper element
+  cardWrapper.classList.toggle("card-rotate");
+});
+</script>
